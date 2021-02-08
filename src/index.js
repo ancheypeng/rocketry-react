@@ -16,7 +16,12 @@ const theme = createMuiTheme({
       'Poppins',
       'sans-serif',
     ].join(','),
-  }
+  },
+  palette: {
+    secondary: {
+      main: '#b22025',
+    },
+  },
 });
 
 ReactDOM.render(

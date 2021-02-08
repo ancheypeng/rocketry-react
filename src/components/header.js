@@ -198,13 +198,13 @@ export default function Header({ active }) {
           </div>
 
           <div>
-            <IconButton className={classes.appBarIconButton} target="_blank" href={"https://facebook.com/stemandbuds"}>
+            <IconButton className={classes.appBarIconButton} target="_blank" href={"https://www.facebook.com/CornellRocketry/"}>
               <FacebookIcon className={classes.appBarIcon} data-active={active ? "true" : scrolled.toString()} />
             </IconButton>
-            <IconButton className={classes.appBarIconButton} target="_blank" href={"https://instagram.com/stemandbuds"}>
+            <IconButton className={classes.appBarIconButton} target="_blank" href={"https://www.instagram.com/cornellrocketry/?hl=en"}>
               <InstagramIcon className={classes.appBarIcon} data-active={active ? "true" : scrolled.toString()} />
             </IconButton>
-            <IconButton className={classes.appBarIconButton} target="_blank" href={"https://www.youtube.com/channel/UCObQHffPzd3jmg5Uyld0ELQ"}>
+            <IconButton className={classes.appBarIconButton} target="_blank" href={"https://www.youtube.com/channel/UCOIp04IIwcz8YvBcgrMYOhg"}>
               <YouTubeIcon className={classes.appBarIcon} data-active={active ? "true" : scrolled.toString()} />
             </IconButton>
           </div>
