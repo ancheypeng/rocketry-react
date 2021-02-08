@@ -5,9 +5,9 @@ import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles'
 
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  // Switch,
+  // Route,
+  // Link
 } from "react-router-dom";
 
 const theme = createMuiTheme({
