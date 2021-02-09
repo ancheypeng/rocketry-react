@@ -53,7 +53,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   logo: {
-    height: 40,
+    height: 50,
+    width: 50,
   },
   appBarButtons: {
     [theme.breakpoints.down("sm")]: {

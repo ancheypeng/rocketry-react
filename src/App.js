@@ -47,7 +47,7 @@ function App() {
     bgAnim.addEventListener('DOMLoaded',
     function (e) { 
       console.log('Lottie Loaded');
-      TweenMax.to(animRef.current, 0.5, { opacity: 1 });
+      TweenMax.fromTo(animRef.current, 0.5, { opacity: 0 }, { opacity: 1 });
     });
 
     bgAnimScene.on('update', e => {
